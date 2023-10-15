@@ -1,8 +1,11 @@
+<!--หน้าเว็บหลัก-->
 <template>
     <section class="background">
+        <!--พื้นหลัง-->
     </section>
     <body>
-      <div style="width: 349px; height: 53px; left: 544px; top: 744px; position: absolute"><span style="color: black; font-size: 16px; font-family: Inter; font-weight: 800; word-wrap: break-word">ประกันสุขภาพ<br/></span><span style="color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">จุดเด่นประกัน<br/><br/></span></div>
+    <!--icon ภาพ ตัวอักษร-->
+    <div style="width: 349px; height: 53px; left: 544px; top: 744px; position: absolute"><span style="color: black; font-size: 16px; font-family: Inter; font-weight: 800; word-wrap: break-word">ประกันสุขภาพ<br/></span><span style="color: black; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">จุดเด่นประกัน<br/><br/></span></div>
     <div style="width: 180px; height: 137px; left: 558px; top: 842px; position: absolute; background: #83DCF9"></div>
     <div style="width: 180px; height: 137px; left: 768px; top: 842px; position: absolute; background: #83DCF9"></div>
     <div style="width: 180px; height: 137px; left: 978px; top: 842px; position: absolute; background: #83DCF9"></div>
@@ -70,7 +73,8 @@
     <img style="width: 817px; height: 547px; left: 551px; top: 2856px; position: absolute" src="https://v2x.co.th/wp-content/uploads/2022/03/shutterstock_1024619968-scaled.jpg" />
     <img style="width: 817px; height: 545px; left: 552px; top: 3809px; position: absolute" src="https://cdn-cms.pgimgs.com/news/2022/06/Resale-house-market-increase-after-covid-19_2.jpg" />
     <img style="width: 841px; height: 546px; left: 530px; top: 5117px; position: absolute" src="https://thematter.co/wp-content/uploads/2022/03/shutterstock_633384791.jpg" />
-      <button style="width: 154px; height: 40px; left: 1202px; top: 994px; position: absolute; background: #FF5A5A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;color: white; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">
+    <!--ปุ่มกดสมัคร-->
+      <button style="width: 154px; height: 40px; left: 1202px; top: 994px; position: absolute; background: #FF5A5A; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border-radius: 25px;color: white; font-size: 16px; font-family: Inter; font-weight: 400; word-wrap: break-word">       
         <router-link to="/information">
             สมัครประกัน
         </router-link>    
@@ -103,6 +107,8 @@
       <div style="width: 1920px; height: 182px; left: 0px; top: 6137px; position: absolute; background: #83DCF9"></div>
     </body>
 </template>
+
+<!--ตกแต่ง-->
 <style>
 .background_5{
   width: 100%;
